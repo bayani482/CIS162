@@ -49,6 +49,31 @@ body {
     width: 100%;
 }
 
+/*gallery*/
+div.gallery {
+    align-items: center;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 70%;
+    display: flex;
+}
+.columnl{
+    flex: 1;
+}
+.column2{
+    flex: 2;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
 /*nav*/
 nav {
     display: flex;
@@ -112,10 +137,47 @@ a:link {
     color: black;
     background-color: transparent;
     text-decoration: none;
-  }
-  
-  a:visited {
+}
+
+a:visited {
     color: black;
     background-color: transparent;
     text-decoration: none;
-  }
+}
+
+/*form*/
+input[type="submit"] {
+    background-color: black;
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: gold;
+}
+
+.form {
+    border: 10px solid pink;
+    border-image: repeating-linear-gradient(-55deg,
+            #000,
+            #000 20px,
+            #ffb101 20px,
+            #ffb101 40px) 10;
+    padding: 5%;
+}
+
+ul{
+    list-style-type: circle;
+    color: red;
+}
