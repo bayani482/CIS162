@@ -5,9 +5,14 @@
 		<title>Zombers</title>
 		<link rel="stylesheet" href="style.css" />
 		<link
-		rel="stylesheet"
-		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-	/>
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	</head>
 
 	<body class="container">
@@ -25,55 +30,201 @@
 		<div class="middle">
 			<h1>News</h1>
 			<div class="row">
-				<div class="column">
-					<img
-						src="https://placehold.co/300x200/png"
-						alt="holder"
-						width="300"
-						height="200"
-					/>
-				</div>
-				<div class="column">
-					<p>
-						lorem epsum lorem epsum lorem epsum lorem epsum lorem
-						epsum lorem epsum lorem epsum lorem epsum lorem epsum
-						lorem epsum lorem epsum lorem epsum
-					</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="column">
-					<p>
-						lorem epsum lorem epsum lorem epsum lorem epsum lorem
-						epsum lorem epsum lorem epsum lorem epsum lorem epsum
-						lorem epsum lorem epsum lorem epsum
-					</p>
-				</div>
-				<div class="column">
-					<img
-						src="https://placehold.co/300x200/png"
-						alt="holder"
-						width="300"
-						height="200"
-					/>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="column">
-					<img
-						src="https://placehold.co/300x200/png"
-						alt="holder"
-						width="300"
-						height="200"
-					/>
-				</div>
-				<div class="column">
-					<p>
-						lorem epsum lorem epsum lorem epsum lorem epsum lorem
-						epsum lorem epsum lorem epsum lorem epsum lorem epsum
-						lorem epsum lorem epsum lorem epsum
-					</p>
+				<div class="accordion" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button
+								class="accordion-button"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseOne"
+								aria-expanded="true"
+								aria-controls="collapseOne"
+							>
+								December 3 2024
+							</button>
+						</h2>
+						<div
+							id="collapseOne"
+							class="accordion-collapse collapse show"
+							aria-labelledby="headingOne"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Patch Notes</strong><br />
+								<ul>
+									<li>
+										<strong>Gameplay Improvements</strong>
+										<ul>
+											<li>
+												<strong>Zombies:</strong>
+												<ul>
+													<li>
+														Improved AI allows
+														zombies to use pack
+														tactics to surround
+														players.
+													</li>
+													<li>
+														Special infected (e.g.,
+														Screamers, Brutes) have
+														enhanced pathfinding and
+														unique behaviors.
+													</li>
+												</ul>
+											</li>
+											<li>
+												<strong
+													>Gunplay
+													Enhancements:</strong
+												>
+												<ul>
+													<li>
+														Recoil patterns for
+														automatic weapons have
+														been smoothed out,
+														improving control.
+													</li>
+													<li>
+														Shotguns now have
+														tighter spread when
+														aiming down sights.
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseTwo"
+								aria-expanded="false"
+								aria-controls="collapseTwo"
+							>
+								November 12 2024
+							</button>
+						</h2>
+						<div
+							id="collapseTwo"
+							class="accordion-collapse collapse"
+							aria-labelledby="headingTwo"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Patch Notes</strong>
+								<ul>
+									<li>
+										<strong>Balance Changes</strong>
+										<ul>
+											<li>
+												<strong
+													>M16 Assault Rifle:</strong
+												>
+												<ul>
+													<li>
+														Reduced base damage from
+														35 to 30.
+													</li>
+													<li>
+														Increased accuracy when
+														crouching.
+													</li>
+												</ul>
+											</li>
+											<li>
+												<strong>Chainsaw:</strong>
+												<ul>
+													<li>
+														Fuel consumption reduced
+														by 20%.
+													</li>
+													<li>
+														Damage increased against
+														armored zombies.
+													</li>
+												</ul>
+											</li>
+											<li>
+												<strong
+													>Zombie Difficulty:</strong
+												>
+												<ul>
+													<li>
+														Slightly reduced health
+														of Brutes on Easy and
+														Normal difficulty modes.
+													</li>
+													<li>
+														Increased speed of
+														regular zombies on Hard
+														and Nightmare modes.
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button
+								class="accordion-button collapsed"
+								type="button"
+								data-bs-toggle="collapse"
+								data-bs-target="#collapseThree"
+								aria-expanded="false"
+								aria-controls="collapseThree"
+							>
+								October 24 2024
+							</button>
+						</h2>
+						<div
+							id="collapseThree"
+							class="accordion-collapse collapse"
+							aria-labelledby="headingThree"
+							data-bs-parent="#accordionExample"
+						>
+							<div class="accordion-body">
+								<strong>Patch Notes</strong>
+								<ul>
+									<li>
+										<strong>Bug Fixes</strong>
+										<ul>
+											<li>
+												Fixed an issue where zombies
+												could clip through walls in
+												Subway Station.
+											</li>
+											<li>
+												Resolved a crash that occurred
+												when too many grenades were used
+												simultaneously.
+											</li>
+											<li>
+												Addressed audio desync during
+												cutscenes in the Outbreak
+												Origins campaign.
+											</li>
+											<li>
+												Corrected leaderboard display
+												errors in the Survival Arena
+												mode.
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
