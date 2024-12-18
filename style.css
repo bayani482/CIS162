@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: auto;
-
+    
 }
 
 /*middle*/
@@ -80,7 +80,7 @@ nav {
     justify-content: center;
     align-items: center;
     border: 3px;
-    font-size: 30px;
+    font-size: 24px;
     font-family: fantasy;
 }
 
@@ -124,14 +124,17 @@ footer {
     padding: 25%;
     background-color: rgb(172, 141, 0);
     color: white;
+
 }
 
 #icons {
     font-size: 35px;
     display: flex;
     justify-content: flex-end;
-    gap: 10px
+    gap: 10px;
+    
 }
+
 
 a:link {
     color: black;
